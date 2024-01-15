@@ -374,6 +374,97 @@ ul li:hover{
     height: 300px;
 }
 
+/* why */
+.why{
+    width: 1280px;
+    margin: 100px auto;
+}
+.why-text{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.why-text h2{
+        font-size: 40px;
+        font-weight: 800;
+        margin-bottom: 24px;
+}
+.why-text p{
+        color: rgba(19, 19, 24, 0.70);
+        width: 643px;
+        margin: 0 auto;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+}
+
+.why-flex .flex{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;  
+}
+
+.why-flex .flex .flex1{
+    padding-left: 32px;
+    padding-top: 32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid #f6e8d8;
+    background: #fffbf7;
+}
+.why-flex .flex img{
+    width: 64px;
+    height: 64px;
+}
+.why-flex .flex p{
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+}
+.why-flex .flex-b h4{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+}
+.why-flex .flex h4{
+        color: #131318;
+        font-size: 24px;
+        font-weight: 800;
+}
+.why-flex .flex-b p{
+        color: #5A5A5D;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+}
+.why-flex .flex .flex2{
+    padding-left: 32px;
+    padding-top: 32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid #ccedf5;
+    background:#ccedf5;
+}
+.why-flex .flex-b{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-flex .flex-b .flex3{
+    margin-top: 24px;
+    padding-left: 32px;
+    padding-top: 32px;
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid #f3d2d2;
+    background:#fffbf7;
+}
+
+
+
 
 /* mobile responsive */
 @media (max-width: 576px) {
@@ -611,4 +702,39 @@ ul li:hover{
              height: auto;
              margin-bottom: 10px;
          }
+
+    .why{
+        width: 335px;
+    }
+    .why-flex .flex {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+       
+    }
+    .why-flex .flex .flex1{
+        width: 335px;
+        height: 289px;
+    }
+    .why-flex .flex .flex2{
+        width: 335px;
+    }
+   .why-flex .flex-b{
+       width: 380px;
+   }
+   .why-flex .flex-b .flex3 {
+       padding-left: 32px;
+       padding-top: 32px;
+       width: 573px;
+       height: 284px;
+   }
+   .why-text{
+    width: 335px;
+    margin: 0 auto;
+   }
+   .why-text p{
+    width: 335px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+   }
 }
