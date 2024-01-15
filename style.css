@@ -763,6 +763,63 @@ ul li:hover{
 }
 
 
+
+footer{
+    width: 1280px;
+    margin: 0 auto;
+    background: #f3f3f3;
+    height: 502px;
+}
+
+.footer-header{
+    width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    padding-top: 110px;
+    
+}
+
+.footer-p p{
+    padding-top: 15px;
+    padding-bottom: 35px;
+    width: 769px;
+    margin: 0 auto;
+    color: #5A5A5D;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 26px;
+}
+
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    width: 174px;
+        height: 24px;
+        margin: 0 auto;
+}
+
+.footer-icon i{
+    margin-right: 10px;
+}
+
+.footer-bottom{
+    
+    width: 872px;
+    margin: 50px auto;
+        height: 1px;
+        background: #dedede;
+}
+
+.footer-copy p{
+color: #131318;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+}
+
 /* mobile responsive */
 @media (max-width: 576px) {
     header {
