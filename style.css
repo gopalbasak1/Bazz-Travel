@@ -103,9 +103,13 @@ ul li:hover{
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
+    margin-bottom: 0px;
 }
 
 .banner-text p{
+    width: 676px;
+    margin: 24px auto;
+    text-align: center;
     color: #FFF;
     font-size: 16px;
     font-weight: 400;
@@ -165,8 +169,52 @@ ul li:hover{
     padding-right: 5px;
 }
 
+/* Tours */
+.tours{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    height: 550px;
+    margin: 100px auto;
+}
 
+.left{
+    width: 576px;
+   height: 550px;
+}
 
+.left h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+
+.left p {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-top: 30px;
+        
+}
+.left li{
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-left: 20px;
+}
+
+.left button{
+    margin-top: 30px;
+}
+
+.right img{
+    width: 540px;
+    height: 550px;
+}
 
 
 /* mobile responsive */
@@ -237,7 +285,7 @@ ul li:hover{
 
     .banner {
         width: 335px;
-        height: 483px;
+        height: 520px;
     }
 
     .banner-text h2 {
@@ -275,4 +323,20 @@ ul li:hover{
         width: 255px;
         margin-left: -30px;
     }
+
+        .tours {
+            width: 375px;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+        .left {
+        width: 375px;
+        height: 750px;
+        }
+        .right img{
+        width: 375px;
+        height: 342px;
+        }
 }
